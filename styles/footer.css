@@ -27,6 +27,7 @@
 
 .contato_item a {
   color: #fafafa;
+  display: block;
 }
 
 .footer_copy {
@@ -44,5 +45,19 @@
 
   .footer_texto {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer_texto {
+    font-size: 1.125rem;
+  }
+
+  .contato_item {
+    font-size: 1.5rem;
+  }
+
+  .footer_copy {
+    font-size: 0.75rem;
   }
 }

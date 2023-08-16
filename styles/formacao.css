@@ -15,7 +15,7 @@
 .container_formacao::after {
   content: "";
   display: block;
-  width: 130px;
+  width: 140px;
   height: 100px;
   background: url("../img/detalhe.svg") no-repeat center;
   position: absolute;
@@ -115,5 +115,11 @@
 @media screen and (max-width: 430px) {
   .formacao_lista {
     flex-direction: column;
+  }
+
+  .container_formacao::after {
+    width: 10px;
+    height: 30px;
+    bottom: -15px;
   }
 }
